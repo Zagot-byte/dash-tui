@@ -1,4 +1,4 @@
-# Terminal Geometry Dash
+# Terminal Dash
 
 A deterministic terminal-based rhythm platformer inspired by Geometry Dash.
 
