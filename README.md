@@ -6,7 +6,7 @@ A deterministic terminal-based rhythm platformer inspired by Geometry Dash.
 
 - **Deterministic Physics**: Every jump follows the exact same arc
 - **Progressive Difficulty**: Speed increases gradually over time
-- **Instant Restart**: Press SPACE after death to try again
+- **Instant Restart**: Press R after death to try again
 - **Stable Performance**: Fixed tick rate with no flickering
 - **Clean Architecture**: Modular design with separation of concerns
 
@@ -25,7 +25,7 @@ A deterministic terminal-based rhythm platformer inspired by Geometry Dash.
 
 2. Controls:
    - **SPACE (tap)**: Short jump - for low obstacles
-   - **SPACE (hold)**: Variable jump height - hold longer for higher jumps
+   - **SPACE (tap two or three )**: Variable jump height - hold longer for higher jumps
    - **Release SPACE**: Cut jump short mid-air
    - **Q**: Quit game
 
@@ -47,7 +47,7 @@ renderer.py  - Display logic
 ## Game Mechanics
 
 ### Physics-Based Jumping
-The game features **variable jump heights** based on how long you hold the space bar:
+The game features ** jump heights** based on how much you tap the space bar:
 - **Tap jump** (quick press): Short hop - clears spikes and low obstacles (2 units high)
 - **Medium jump** (brief hold ~0.2s): Mid-height jump - clears medium obstacles (4-5 units high)
 - **Full jump** (full hold ~0.3s): Maximum height - clears tall obstacles (6-7 units high)
@@ -104,4 +104,4 @@ The modular architecture makes it easy to add:
 
 ## License
 
-Public domain - use freely
+Public domain - use freely while giving credits 
